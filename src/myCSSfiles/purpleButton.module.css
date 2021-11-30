@@ -1,0 +1,38 @@
+
+/* --- For all buttons  --- */
+/* --- First the button as it appears before the user clicks it  --- */
+.myCommonToAllButtons {
+    /* display: block; */
+    /* display: inline-block; */
+    padding: 5px 5px;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    outline: none;
+    color: #736437; /* This is text colour */
+    background-color: #ce95d6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3.5px 1.5px 1.5px #444;
+    height: 30px;
+
+                                }
+
+/* --- Now the button as it appears after the user clicks it  --- */
+/* --- This moves the button in the y direction (ie down), makes the box shadow
+smaller and makes the button text white  --- */
+.myCommonToAllButtons:active {
+    text-align: left;
+    color: #fff; /* This is text colour */
+      background-color: #ce95d6;
+      box-shadow: 1px 1px 1px 1px #333;  /* The first two values are x,y offest;
+      the second two concern blur, the third is colour. NOte how they've
+      changed */
+      transform: translateY(2.5px) ;  /* move the button in the y direction */
+
+}
+
+
+/* --- ---- --- ---- --- ---- */

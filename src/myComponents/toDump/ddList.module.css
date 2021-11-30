@@ -1,0 +1,26 @@
+
+/* ---    --- */
+/* ---    --- */
+
+/* --- The menu options are <div>s while the text that's 'in' them
+are <p>s , the <div>s and the <p>s having different CSS classes --- */
+
+/* ---The following CSS classes are for number cards and picture cards.
+They are exactly the same but I didn't have time to change them!!!!--- */
+
+.cardTextPictures {
+    position: absolute;
+    top: -10px ;
+    left: 10px ;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #3b1626 ; /* This is text colour */
+          }
+
+
+
+
+
+
+/* --- ---- --- ---- --- ---- */

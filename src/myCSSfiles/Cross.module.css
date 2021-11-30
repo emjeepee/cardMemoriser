@@ -1,0 +1,35 @@
+
+/* ---    --- */
+/* ---    --- */
+
+/* ---  --- */
+
+/* --- The cross comprises two parallelograms --- */
+
+.crossDiagonalOne {
+    position: absolute;
+    top: 7px ;
+    left: 23px ;
+    width: 15px;
+    height: 75px;
+    transform: skew(20deg);
+    background: red;
+    border-width: 1px;
+    border: solid ;
+    border-color: black;
+    opacity: 70%
+                 }
+
+.crossDiagonalTwo {
+    position: absolute;
+    top: 7px ;
+    left: 23px ;
+    width: 10px;
+    height: 75px;
+    transform: skew(-20deg);
+    background: red;
+    border-width: 1px;
+    border: solid ;
+    border-color: black;
+    opacity: 70%
+                 }

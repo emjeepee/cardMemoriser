@@ -1,0 +1,60 @@
+/* --- --------- ----------- ---------- ----------- --------- -------- -- --- */
+
+
+/* --- First for the Large brown rectangle that contains the card-recall area */
+.recallAreaPrettifying {
+  position: absolute;
+  width: 1000px;
+  height: 800px;
+  background-color: #987 ;
+  border-style: solid;
+  border-width: 10px ;
+  border-color: #444
+                       }
+
+/* --- Now for the text that shows how many cards the user has memorised --- */
+.numberOfCardsText {
+    position: absolute;
+    font-family: Verdana, sans-serif;
+    font-size: 21px;
+    text-align: left;
+    left: 17px;
+    top: 700px ;
+    color: #736437; /* This is text colour */
+                    }
+
+/* --- Now for the text that shows how much time the user took to memorise the
+ cards --- */
+.timeTakenText {
+    position: absolute;
+    font-family: Verdana, sans-serif;
+    font-size: 21px;
+    text-align: left;
+    left: 17px;
+    top: 730px ;
+    color: #700437; /* This is text colour */
+                }
+
+/* --- --------- ----------- ---------- ----------- --------- -------- -- --- */
+
+/* --- Now for positioning the "Check" button--- */
+.positionCheckButton {
+    position: absolute;
+    left: 17px;
+    top: 680px ;
+                     }
+
+
+/* --- Now for positioning the "Close" button--- */
+.positionCloseButton {
+    position: absolute;
+    left: 207px;
+    top: 680px ;
+                     }
+
+/* --- Now for positioning the "Show previous attempts" button--- */
+.positionShowPreviousAttemptsButton {
+    position: absolute;
+    left: 307px;
+    top: 680px ;
+                      }

@@ -1,0 +1,57 @@
+
+/* --- ---- --- ---- --- ---- */
+
+
+table {
+
+
+      }
+
+thead {
+    background: #f2e6ff
+      }
+
+th {
+font-family: monospace;
+font-size: 18px ;
+    }
+
+/* ---- ----- ----- -----  ---- ----- ----- ----- */
+/*THe folllowing two don't work!!!*/
+tr.odd {
+
+       }
+
+tr.even {
+
+         }
+/*THe folllowing two don't work!!!*/
+/* ---- ----- ----- -----  ---- ----- ----- ----- */
+
+
+td {
+    text-align: center;
+    }
+
+.backGroundOne {
+background-color: #f2e6ff;
+}
+
+.backGroundTwo {
+background-color: #fdf;
+}
+
+
+
+/* --- positioning xxxxx --- */
+.yyyy {
+position: absolute;
+top: 2px;
+left: 2px;
+width: 500px;
+height: 38px ;
+border-width: 3px;
+border-style: solid;
+border-color: #4a390c;
+background-color: #f2e6ff;
+             }

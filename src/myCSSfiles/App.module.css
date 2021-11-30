@@ -1,0 +1,117 @@
+/* --- NOTE there's happily no need to import this current .module.css file into
+a module to be able to use the global css classes */
+
+
+
+/* ---  ---  ---  --- App-wide (ie global) classes first ---  ---  ---  --- */
+
+/* --- For labels for all inputs --- */
+:global .myInputLabelText {
+    font-size: 11pt;
+    font-family: Verdana, sans-serif;
+    color: #800;
+                      }
+
+
+
+/* --- For all inputs --- */
+:global .myFieldText {
+height: 10px ;
+font-family: Verdana, sans-serif;
+font-size: 13pt;
+color: #000 ;
+background-color: #fff ;
+padding: 10px;
+}
+
+:global .incorrect {
+height: 10px ;
+font-family: Verdana, sans-serif;
+font-size: 13pt;
+color: #000 ;
+background-color: #f99 ;
+padding: 10px;
+}
+
+
+/* --- For all inputs of with 50px--- */
+:global .InputWidth50px {
+width: 50px;
+                        }
+
+/* --- For all inputs of with 1050px--- */
+:global .InputWidth150px {
+width: 150px;
+                        }
+
+
+
+/* -- *************** ************ *************** ************ ********* --- */
+/* -- *************** ************ *************** ************ ********* --- */
+
+
+/* -- A vertical line to visually separate the <StopWatch> component and the
+child buttons of the <App> component -- */
+
+.verticalLineOne {
+position: absolute;
+top: 400px;
+left: 157px ;
+border-left: 1px solid black;
+height: 175px;
+                 }
+
+
+
+/* -- *************** ************ *************** ************ ********* --- */
+
+
+
+
+
+
+/* -- Now styles only for positioning the App component's child components -- */
+
+
+/* -- Positioning the <PurpleButton> that resets and "reshuffles" -- */
+.resetButtonPosition
+{
+    position: absolute;
+    left: 170px;
+    top: 493px;
+}
+
+
+/* -- Positioning the <Timer> component -- */
+.timerPosition
+{
+    position: absolute;
+    left: 617px;
+    top: -30px;
+}
+
+/* -- Positioning the <RecallArea> component -- */
+.recallAreaPositioningOnly
+{
+    position: absolute;
+    left: 620px;
+    top: 510px;
+}
+
+/* -- Positioning the test button -- */
+.testButtonPosition {
+    position: absolute;
+    left: 147px;
+    top: 630px;
+                     }
+
+/* -- Positioning the back button -- */
+.backButtonPosition {
+    position: absolute;
+    left: 204px;
+    top: 445px;
+                     }
+
+
+/* -- *************** ************ *************** ************ ********* --- */
+/* -- *************** ************ *************** ************ ********* --- */

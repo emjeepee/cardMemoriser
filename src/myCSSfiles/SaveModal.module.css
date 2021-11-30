@@ -1,0 +1,55 @@
+
+
+/* --- First the whole modal box --- */
+.positionAndPrettifySaveModalBox {
+    position: absolute;
+    background-color: #f0d8ef;
+    border: solid;
+    border-radius: 3px;
+    box-shadow: 3px 3.5px 1.5px 1.5px #444;
+    width: 400px;
+    height: 200px;
+    left: 300px;
+    top: 200px;
+    z-index: 10
+                                 }
+
+/* --- Now the div containing the header text --- */
+.positionAndPrettifyHeaderDiv{
+    position: absolute;
+    top: 0px ;
+    left: 0px;
+    background-color: #948193;
+    height: 40px;
+    width: 100%
+                             }
+
+/* --- Now the button as it appears after the user clicks it  --- */
+/* --- This moves the button in the y direction (ie down), makes the box shadow
+smaller and makes the button text white  --- */
+.positionAndPrettifyHeaderText {
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    font-family: sans-serif;
+    font-size: 24px;
+      text-align: center;
+      color: #fff; /* This is text colour */
+
+                                }
+
+.positionYesButton  {
+    position: absolute;
+    top: 150px;
+    left: 15px;
+                     }
+
+.positionNoButton  {
+    position: absolute;
+    top: 150px;
+    left: 75px;
+                     }
+
+
+
+/* --- ---- --- ---- --- ---- */

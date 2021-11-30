@@ -1,0 +1,92 @@
+/* --- --------- ----------- ---------- ----------- --------- -------- -- --- */
+
+/* --- --------- ------ -*/
+
+/* --- First for the overall rectangle itself. Remember that we don't here
+assign CSS attributes for positioning this component as a whole, those are in
+the stylesheet of the parent component (<RecallArea>)  --- */
+.recallCard {
+z-index: 3;
+  position: absolute;
+  width: 60px;
+  height: 90px;
+  background-color: #99f;
+  border : solid ;
+  border-color: #333 ;
+  border-width: 2px
+
+            }
+
+/* --- Four CSS classes for the suits --- */
+/* --- They differ only in their positioning --- */
+.clubs {
+z-index: 3;
+  position: absolute;
+  top: 0px ;
+  left: 0px ;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border : solid ;
+  border-color: #000 ;
+  border-width: 1px
+            }
+
+.diamonds {
+z-index: 3;
+ position: absolute;
+ width: 30px;
+ height: 30px;
+  top: 0px ;
+  left: 30px ;
+  background-color: #fff;
+  border : solid ;
+  border-color: #000 ;
+  border-width: 1px
+            }
+
+.hearts {
+z-index: 3;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 30px ;
+  left: 0px ;
+  background-color: #fff;
+  border : solid ;
+  border-color: #000 ;
+  border-width: 1px
+            }
+
+.spades {
+z-index: 3;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 30px ;
+  left: 30px ;
+  background-color: #fff;
+  border : solid ;
+  border-color: #000 ;
+  border-width: 1px
+            }
+/* --- ------- --------- --------- -------- --- */
+
+
+/* --- CSS class to position the DD list within the RecallCard--- */
+.positioningDDlist {
+z-index: 3;
+  position: absolute;
+  top: 50px ;
+  left: 3px ;
+                    }
+
+/* --- ------- --------- --------- -------- --- */
+
+
+
+
+
+
+
+/* --- --------- ----------- ---------- ----------- --------- -------- -- --- */

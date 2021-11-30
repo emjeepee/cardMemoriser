@@ -1,0 +1,61 @@
+/* --- --------- ----------- ---------- ----------- --------- -------- -- --- */
+
+/* --- Remember that the stylesheets here position the surrounding <div>s
+of each major thing this component renders. Remember also that it is the
+parent component (and its css stylesheet) that positions any child
+component --- */
+
+/* --- The area where each overturned card appears, ie component
+<OverturnedCardDisplayArea>  --- */
+/* --- --------- ------- ----- -*/
+.positionOverturnedCardArea {
+    position: absolute;
+    left: 0px;
+    top:  178px;
+                    }
+
+
+/* --- Prettifying and positioning tylesheets for the various parts of component
+<Timer> --- */
+
+/* --- the brown box – no longer brown!! --- */
+.prettifyingBrownBox {
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  width: 223px;
+  height: 50px;
+  background-color: #e6b3cc;
+                       }
+
+/* --- --------- -------- */
+
+/* --- the text of the timer's counter --- */
+.counterText {
+    position: absolute;
+    font-family: Verdana, sans-serif;
+    font-size: 27px;
+    align: center;
+    left: 112px;
+    top: 102px;
+    color: #4d2e00; /* This is text colour */
+             }
+
+/* --- --------- --------- */
+
+/* --- The button that stops/starts the timer--- */
+/* --- --------- ------- ----- -*/
+.positionStopStartButton {
+  position: absolute;
+  top: 130px;
+  left: 5px;
+                         }
+
+/* --- --------- ---------- */
+.positionTestButton  {
+  position: absolute;
+  top: 330px;
+  left: -210px;
+                      }
+
+/* --- --------- ---------- */

@@ -1,0 +1,176 @@
+
+/* --- CSS classes for the DDlist header and text in the header --- */
+
+.ddListHeaderPositionAndPrettify {
+     position: absolute;
+      background-color: #f0b1cd;
+      box-shadow: 1px 1px 1px 1px #333;  /* The first two values are x,y offest;
+      the second two concern blur, the third is colour. */
+      border-radius: 3px;
+      width: 50px;
+      height: 22px ;
+      left: 0px ;
+      top: 15px
+                           }
+
+.ddListHeaderText {
+    position: absolute;
+    top: -10px ;
+    left: 3px ;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #3b1626 ; /* This is text colour */
+                  }
+
+/* --- The text inside the button of each option in the dd list. --- */
+
+.cardTextNumbers {
+    position: absolute;
+    top: -10px ;
+    left: 10px ;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #3b1626 ; /* This is text colour */
+                }
+
+/* -- *********  ********* --- */
+/* -- CSS styles .commonToAllNumberMenusInDDlist  and
+ .commonToAllPictureMenusInDDlist below differ only in the value of their width
+ attribute (because one is for divs that will contain a number from "1" to "10",
+ the other for divs that will contain "Jack", "Queen" or "King")---
+ NOTE: there's redundancy below!! shorten!! */
+
+.commonToAllNumberMenusInDDlist {
+      background-color: #f0b1cd;
+      box-shadow: 5px 5px 5px 4px #333;  /* The first two values are x,y offest;
+      the second two concern blur, the third is colour. */
+      border-radius: 3px;
+      width: 30px;
+      height: 20px
+                                }
+
+.commonToAllNumberMenusInDDlist:focus {
+    background-color: #fff;
+      /*box-shadow: inset 0px 0px 5px #fff;*/
+                                        }
+
+
+/*  ---  Now two CSS classes for the menu options for the picture cards  */
+.commonToAllPictureMenusInDDlist {
+      background-color: #f0b1cd;
+      box-shadow: 5px 5px 5px 4px #333;  /* The first two values are x,y offest;
+      the second two concern blur, the third is colour. */
+      border-radius: 3px;
+      width: 60px;
+      height: 20px
+                                 }
+
+.commonToAllPictureMenusInDDlist:focus {
+      background-color: #fff;
+      /* box-shadow: 5px 5px 5px 4px #333; */
+      /*The first two values are x,y offest;
+      the second two concern blur, the third is colour. */
+                                        }
+
+
+
+/* -- *************** ************ *************** ************ ********* --- */
+
+/* --- ---- Thirteen CSS classes for the option in the dd list, each represnting
+a card]. Obviously each differs from the other 12 only in its value for "top"
+--- ---- */
+.menuOne {
+    position: absolute;
+    z-index: 5;
+      top: 28px ;
+      left: 5px
+          }
+
+.menuTwo {
+    position: absolute;
+    z-index: 5;
+      top: 50px ;
+      left: 5px
+          }
+
+.menuThree {
+    position: absolute;
+    z-index: 5;
+      top: 72px ;
+      left: 5px
+          }
+
+.menuFour {
+    position: absolute;
+    z-index: 5;
+      top: 94px ;
+      left: 5px
+          }
+
+.menuFive {
+    position: absolute;
+    z-index: 5;
+      top: 116px ;
+      left: 5px
+          }
+
+.menuSix {
+    position: absolute;
+    z-index: 5;
+      top: 138px ;
+      left: 5px
+          }
+
+.menuSeven {
+    position: absolute;
+    z-index: 5;
+      top: 160px ;
+      left: 5px
+          }
+
+.menuEight {
+    position: absolute;
+    z-index: 5;
+      top: 182px ;
+      left: 5px
+          }
+
+.menuNine {
+    position: absolute;
+    z-index: 5;
+      top: 204px ;
+      left: 5px
+          }
+
+.menuTen {
+    position: absolute;
+    z-index: 5;
+      top: 226px ;
+      left: 5px
+          }
+
+.menuJack {
+    position: absolute;
+    z-index: 5;
+      top: 248px ;
+      left: 5px
+          }
+
+.menuQueen {
+    position: absolute;
+    z-index: 5;
+      top: 270px ;
+      left: 5px
+          }
+
+.menuKing {
+    position: absolute;
+    z-index: 5;
+      top: 292px ;
+      left: 5px
+          }
+
+
+/* -- *************** ************ *************** ************ ********* --- */

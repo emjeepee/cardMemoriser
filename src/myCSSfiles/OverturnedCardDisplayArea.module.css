@@ -1,0 +1,57 @@
+
+/* --- width and height and prettifying <OverturnedCardDisplayArea> --- */
+
+.prettifyOverturnedCardDisplayArea {
+width: 225px;
+height: 350px;
+background-color: #eee;
+border-radius: 5%;
+                                    }
+
+
+/* --- For positioning the Reset button-- */
+.positionNewGameButton  {
+position: absolute;
+top: 112px;
+left: 250px;
+                      }
+
+
+/* --- For positioning the Reset button-- */
+.positionDoneButton  {
+position: absolute;
+top: 312px;
+left: 250px;
+                      }
+
+/* --- For positioning the Reset button-- */
+.positionResetButton  {
+position: absolute;
+top: -47px;
+left: 250px;
+                      }
+
+/* --- For positioning the button that shows the ordinal number of the card-- */
+.positionCardNumberButton  {
+position: absolute;
+top: 312px;
+left: 190px;
+                      }
+
+/* --- For positioning the button that reads "Back" --- */
+.positionBackButton  {
+position: absolute;
+top: 312px;
+left: 95px;
+                      }
+
+/* --- For positioning the button that reads "Next card / etc" --- */
+.positionAdvanceCardButton   {
+position: absolute;
+top: 312px;
+left: 10px;
+                             }
+
+
+/* -- *************** ************ *************** ************ ********* --- */
+/* -- *************** ************ *************** ************ ********* --- */

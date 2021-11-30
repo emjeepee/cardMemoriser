@@ -1,0 +1,33 @@
+
+/* ---    --- */
+/* ---    --- */
+
+/* ---  --- */
+
+/* --- The tick comprises two parallelograms, one smaller than the other--- */
+
+.tickDiagonalOne {
+    position: absolute;
+    top: 7px ;
+    left: 35px ;
+    width: 20px;
+    height: 75px;
+    transform: skew(-20deg);
+    background: #2eb82e;
+    opacity: 70%
+            }
+
+.tickDiagonalTwo {
+    position: absolute;
+    top: 47px ;
+    left: 5px ;
+    width: 20px;
+    height: 35px;
+    transform: skew(20deg);
+    background: #2eb82e;
+    opacity: 70%
+            }
+
+
+
+/* --- ---- --- ---- --- ---- */
